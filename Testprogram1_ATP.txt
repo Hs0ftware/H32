@@ -1,0 +1,41 @@
+Print"Hello World!"
+Delay(300)
+Clear()
+Print"This is a demonstration of the Rudimentary Alphanumeric Translators capabilties."
+Delay(500)
+Clear()
+Print"Text can be displayed using Print''<STRING>'' (Use quotation marks)"
+Delay(350)
+Clear()
+Print"The Delay(<VALUE>) command is used to keep the text on screen. Example: Delay(500)"
+Delay(500)
+Clear()
+Print"Clear() resets the display register for the next incoming string."
+Delay(500)
+Print" Text can also be appended to text already onscreen if Clear() is not used."
+Delay(350)
+Clear()
+Print"The Print command has a 2nd function to handle ALU functions."
+Delay(500)
+Clear()
+Print"Print{<Value>, <Math Operation>, <Value>}  allows for mathematical operations to be executed."
+Delay(500)
+Clear()
+Print"Addition subtraction multiplication and division are currently implemented."
+Delay(500)
+Clear()
+Print"Here is a demo of the ALU functions:"
+Delay(350)
+Clear()
+Print"Executing: Print{64+32}"
+Delay(700)
+Print", Executing: Print{64-32}"
+Delay(700)
+Print", Executing: Print{64*32}"
+Delay(700)
+Print", Executing: Print{64/32}"
+Delay(700)
+Print", ALU demo complete!"
+Delay(1000)
+Clear()
+
